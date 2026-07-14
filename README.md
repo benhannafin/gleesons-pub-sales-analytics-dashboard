@@ -1,1 +1,306 @@
-# gleesons_analysis
+# Gleesons Pub Sales Dashboard
+
+## Project Overview
+
+This project is a Power BI dashboard built to analyse POS sales data from Gleesons, the pub I work in.
+
+I created it to answer basic business questions and introduce simple analytics into a business that previously had no dashboard or regular reporting system.
+
+The main aim was to make sales data easier to understand and use it to support real product decisions.
+
+The dashboard was originally built using real POS sales data from Gleesons. For privacy reasons, the real dataset is not included in this public repository. A simulated/anonymised dataset is included instead to show the dashboard structure and approach.
+
+---
+
+## Why I Built This
+
+Gleesons had useful sales data available through its POS system, but it was not being used much for regular analysis.
+
+I wanted to use Power BI to answer practical questions such as:
+
+* Which products are performing best?
+* Are new products adding sales or taking sales from existing products?
+* Which products are worth keeping?
+* Can sales data support better product decisions?
+
+The project was built to turn raw POS data into a simple dashboard that could support decision-making.
+
+---
+
+## Core Finding: Beamish vs Guinness
+
+The main finding from the dashboard was that Beamish appeared to be taking sales away from Guinness.
+
+Beamish was introduced in December. After it was introduced, Guinness sales started to decline.
+
+When I compared the months from January to May, the revenue gained from Beamish roughly offset the revenue lost from Guinness. However, Beamish generated around 17% less revenue per pint than Guinness.
+
+This suggested that Beamish was not creating much additional revenue. Instead, it appeared to be replacing Guinness sales with a lower-revenue product.
+
+As a result, Beamish was removed from the product range.
+
+---
+
+## Business Impact
+
+This project had a practical impact because it was based on real sales data from Gleesons.
+
+The dashboard helped show that:
+
+* Beamish was taking sales away from Guinness.
+* Beamish generated around 17% less revenue per pint than Guinness.
+* The sales gained from Beamish roughly offset the sales lost from Guinness.
+* Keeping Beamish meant shifting sales away from a stronger-performing product.
+
+This supported the decision to remove Beamish from the product range and refocus on Guinness as the stronger-performing drink.
+
+---
+
+## Recommendation
+
+The main recommendation was to remove Beamish and protect Guinness as one of the pub’s strongest-performing products.
+
+The reason was simple:
+
+Beamish appeared to replace Guinness sales rather than add meaningful new sales, while also generating less revenue per pint.
+
+This made Beamish a weaker product to keep in the range.
+
+---
+
+## Dataset
+
+The dashboard was originally developed using real POS sales data from Gleesons.
+
+The real dataset is not included in this GitHub repository because it contains private business information. Instead, I have included a simulated/anonymised dataset with the same structure.
+
+The public dataset includes fields such as:
+
+* Transaction ID
+* Date
+* Time
+* Product Name
+* Category
+* Quantity
+* Sale Price
+* Cost Price
+* Staff Member
+* Revenue
+* Cost
+* Profit
+
+---
+
+## Data Privacy
+
+The original POS data from Gleesons has been excluded from this public version.
+
+No customer data, payment information, private business figures, or original company records are shared.
+
+The public dataset is simulated/anonymised and is included only to demonstrate the dashboard structure and analysis approach.
+
+---
+
+## Tools Used
+
+* Power BI
+* Power Query
+* DAX
+* CSV / Excel
+* GitHub
+
+---
+
+## Dashboard Pages
+
+The dashboard includes six pages:
+
+1. Executive Summary
+2. Product Performance
+3. Time-Based Sales Analysis
+4. Staff Performance
+5. Profitability Analysis
+6. Management Recommendations
+
+---
+
+## What the Dashboard Shows
+
+### Executive Summary
+
+A quick overview of the main KPIs:
+
+* Total Revenue
+* Total Profit
+* Number of Transactions
+* Average Transaction Value
+* Total Units Sold
+
+---
+
+### Product Performance
+
+Shows which products are performing best and worst.
+
+This includes:
+
+* Top products by revenue
+* Top products by units sold
+* Top products by profit
+* Product category performance
+
+---
+
+### Time-Based Sales Analysis
+
+Shows when the pub is busiest.
+
+This includes:
+
+* Revenue by hour
+* Revenue by day
+* Monthly trends
+* Busy and quiet trading periods
+
+---
+
+### Staff Performance
+
+Shows sales activity by staff member.
+
+This includes:
+
+* Revenue processed
+* Number of transactions
+* Average transaction value
+
+This page is used as an overview only, as staff results can depend on which shifts they worked.
+
+---
+
+### Profitability Analysis
+
+Looks at profit rather than just sales.
+
+This helps show:
+
+* Which products make the most profit
+* Which products have weaker performance
+* Whether new products are adding sales or taking sales from stronger products
+
+---
+
+### Management Recommendations
+
+This page summarises the main action from the analysis:
+
+* Remove Beamish from the product range
+* Protect Guinness as a stronger-performing product
+* Use sales data more regularly when reviewing product changes
+
+---
+
+## Skills Demonstrated
+
+This project demonstrates:
+
+* Power BI dashboard building
+* Power Query data cleaning
+* DAX measures
+* KPI reporting
+* Data visualisation
+* Basic business analysis
+* Product performance analysis
+* Turning sales data into a recommendation
+* Data privacy awareness
+* GitHub documentation
+
+---
+
+## Repository Structure
+
+```text
+gleesons-pub-sales-dashboard/
+│
+├── data/
+│   └── pub_sales_data_no_food.csv
+│
+├── powerbi/
+│   └── pub_business_dashboard_public.pbix
+│
+├── report/
+│   └── pub_business_insights_report.pdf
+│
+├── screenshots/
+│   ├── executive_summary.png
+│   ├── product_performance.png
+│   ├── time_analysis.png
+│   ├── staff_performance.png
+│   ├── profitability_analysis.png
+│   └── management_recommendations.png
+│
+└── README.md
+```
+
+---
+
+## Screenshots
+
+### Executive Summary
+
+![Executive Summary](screenshots/executive_summary.png)
+
+### Product Performance
+
+![Product Performance](screenshots/product_performance.png)
+
+### Time-Based Sales Analysis
+
+![Time-Based Sales Analysis](screenshots/time_analysis.png)
+
+### Staff Performance
+
+![Staff Performance](screenshots/staff_performance.png)
+
+### Profitability Analysis
+
+![Profitability Analysis](screenshots/profitability_analysis.png)
+
+### Management Recommendations
+
+![Management Recommendations](screenshots/management_recommendations.png)
+
+---
+
+## How to Use This Project
+
+1. Download or clone the repository.
+2. Open the Power BI file in Power BI Desktop.
+3. Use the navigation buttons to move between pages.
+4. Use the slicers to filter the data.
+5. Read the report for a short summary of the finding and recommendation.
+
+---
+
+## Future Improvements
+
+Possible future improvements include:
+
+* Connecting the dashboard to regular POS exports
+* Adding automatic refresh
+* Adding stock/inventory data
+* Adding sales targets
+* Reviewing future product launches using the same approach
+* Adding a simple product impact tracker
+
+---
+
+## Project Summary
+
+This project was built to bring basic analytics into Gleesons, a pub that did not previously have a dashboard.
+
+The key finding was that Beamish appeared to be taking sales away from Guinness after being introduced in December. From January to May, Beamish revenue roughly offset the lost Guinness revenue, but Beamish generated around 17% less revenue per pint.
+
+This supported the decision to remove Beamish from the product range and refocus on Guinness as the stronger-performing drink.
+
+The public version uses simulated/anonymised data so the project can be shared safely.
