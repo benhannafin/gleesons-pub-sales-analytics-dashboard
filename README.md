@@ -96,9 +96,9 @@ The public dataset includes fields such as:
 
 The original POS data from Gleesons has been excluded from this public version.
 
-No customer data, payment information, private business figures, or original company records are shared.
+No customer data, payment information, or private business figures are shared.
 
-The public dataset is simulated and is included only to demonstrate the dashboard structure and analysis approach.
+The public dataset is simulated and is included to demonstrate the dashboard structure and analysis approach.
 
 
 
