@@ -6,9 +6,9 @@ This project is a Power BI dashboard built to analyse POS sales data from Gleeso
 
 I created it to answer basic business questions and introduce simple analytics into a business that previously had none.
 
-The main aim was to make sales data easier to understand and use it to support real product decisions.
+The main aim was to make sales data easier to understand and use it to support decisions within the pub.
 
-The dashboard was originally built using real POS sales data from Gleesons. For privacy reasons, the real dataset is not included in this public repository. A simulated dataset is included instead to show how the dashboard works.
+The dashboard was originally built using real POS sales data from Gleesons. For privacy reasons, the real dataset is not included in this public repository. A simulated dataset is included to show how the dashboard works.
 
 
 ## Why Did I Build This?
@@ -40,7 +40,7 @@ As a result, Beamish was removed from the pub in July 2026.
 
 ## Business Impact
 
-This project had a real impact because it was based on recent sales data from Gleesons.
+This project had a real impact because it was based on sales data from Gleesons, specifically from September 2025 to May 2026.
 
 The dashboard helped show that:
 
