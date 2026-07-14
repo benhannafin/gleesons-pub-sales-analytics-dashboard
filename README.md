@@ -1,5 +1,6 @@
 # Gleesons Pub Sales Dashboard
 
+
 ## Project Overview
 
 This project is a Power BI dashboard built to analyse POS sales data from Gleesons, the pub I work in.
@@ -9,6 +10,7 @@ I created it to answer basic business questions and introduce simple analytics i
 The main aim was to make sales data easier to understand and use it to support decisions within the pub.
 
 The dashboard was originally built using real POS sales data from Gleesons. For privacy reasons, the real dataset is not included in this public repository. A simulated dataset is included to show how the dashboard works.
+
 
 
 ## Why Did I Build This?
@@ -25,6 +27,7 @@ I wanted to use Power BI and the analysis skills I had developed to answer some 
 The project was built to turn raw POS data into a simple dashboard that could support decision-making.
 
 
+
 ## Core Finding: Beamish vs Guinness
 
 The main finding from the dashboard was that Beamish appeared to be taking sales away from Guinness.
@@ -36,6 +39,7 @@ When I compared the months from January to May, the revenue gained from Beamish 
 This suggested that Beamish was not creating much additional revenue. Instead, it appeared to be replacing Guinness sales with a lower revenue product.
 
 As a result, Beamish was removed from the pub in July 2026.
+
 
 
 ## Business Impact
@@ -52,6 +56,7 @@ The dashboard helped show that:
 This supported the decision to remove Beamish from the pub and focus on Guinness as the stronger performing drink.
 
 
+
 ## Recommendation
 
 The main recommendation was to remove Beamish and protect Guinness as one of the pub’s best products.
@@ -61,6 +66,7 @@ The reason was simple:
 Beamish appeared to replace Guinness sales rather than add meaningful new sales, while generating less revenue per pint.
 
 This made Beamish a simply weaker product.
+
 
 
 ## Dataset
@@ -85,6 +91,7 @@ The public dataset includes fields such as:
 * Profit
 
 
+
 ## Data Privacy
 
 The original POS data from Gleesons has been excluded from this public version.
@@ -94,6 +101,7 @@ No customer data, payment information, private business figures, or original com
 The public dataset is simulated and is included only to demonstrate the dashboard structure and analysis approach.
 
 
+
 ## Tools Used
 
 * Power BI
@@ -101,6 +109,7 @@ The public dataset is simulated and is included only to demonstrate the dashboar
 * DAX
 * CSV / Excel
 * GitHub
+
 
 
 ## Dashboard Pages
@@ -113,6 +122,7 @@ The dashboard includes six pages:
 4. Staff Performance
 5. Profitability Analysis
 6. Management Recommendations
+
 
 
 ## What the Dashboard Shows
@@ -181,6 +191,7 @@ This helps show:
 This page summarises the main action from the analysis:
 
 
+
 ## Repository Structure
 
 ```text
@@ -205,6 +216,7 @@ gleesons-pub-sales-dashboard/
 │
 └── README.md
 ```
+
 
 
 ## Screenshots
@@ -234,6 +246,7 @@ gleesons-pub-sales-dashboard/
 ![Management Recommendations](screenshots/management_recommendations.png)
 
 
+
 ## How to Use This Project
 
 1. Download or clone the repository.
@@ -241,6 +254,7 @@ gleesons-pub-sales-dashboard/
 3. Use the navigation buttons to move between pages.
 4. Use the slicers to filter the data.
 5. Read the report for a short summary of the finding and recommendation.
+
 
 
 ## Future Improvements
