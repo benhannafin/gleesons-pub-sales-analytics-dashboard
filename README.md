@@ -4,22 +4,22 @@
 
 This project is a Power BI dashboard built to analyse POS sales data from Gleesons, the pub I work in.
 
-I created it to answer basic business questions and introduce simple analytics into a business that previously had no dashboard or regular reporting system.
+I created it to answer basic business questions and introduce simple analytics into a business that previously had none.
 
 The main aim was to make sales data easier to understand and use it to support real product decisions.
 
-The dashboard was originally built using real POS sales data from Gleesons. For privacy reasons, the real dataset is not included in this public repository. A simulated/anonymised dataset is included instead to show the dashboard structure and approach.
+The dashboard was originally built using real POS sales data from Gleesons. For privacy reasons, the real dataset is not included in this public repository. A simulated dataset is included instead to show how the dashboard works.
 
 ---
 
 ## Why I Built This
 
-Gleesons had useful sales data available through its POS system, but it was not being used much for regular analysis.
+Gleesons had an abundance of useful sales data available through its POS system, but it was not being used for analysis.
 
-I wanted to use Power BI to answer practical questions such as:
+I wanted to use Power BI and the analysis skills I had developed to answer some key questions:
 
-* Which products are performing best?
-* Are new products adding sales or taking sales from existing products?
+* Which products are performing the best?
+* What hours are busiest? 
 * Which products are worth keeping?
 * Can sales data support better product decisions?
 
@@ -31,46 +31,46 @@ The project was built to turn raw POS data into a simple dashboard that could su
 
 The main finding from the dashboard was that Beamish appeared to be taking sales away from Guinness.
 
-Beamish was introduced in December. After it was introduced, Guinness sales started to decline.
+Beamish was introduced in early December 2025. After it was introduced, Guinness sales started to decline.
 
-When I compared the months from January to May, the revenue gained from Beamish roughly offset the revenue lost from Guinness. However, Beamish generated around 17% less revenue per pint than Guinness.
+When I compared the months from January to May, the revenue gained from Beamish roughly offset the revenue lost from Guinness. However, Beamish generated around 11% less revenue per pint than Guinness. This insight was clearly visible on the dashboard.
 
-This suggested that Beamish was not creating much additional revenue. Instead, it appeared to be replacing Guinness sales with a lower-revenue product.
+This suggested that Beamish was not creating much additional revenue. Instead, it appeared to be replacing Guinness sales with a lower revenue product.
 
-As a result, Beamish was removed from the product range.
+As a result, Beamish was removed from the pub in July 2026.
 
 ---
 
 ## Business Impact
 
-This project had a practical impact because it was based on real sales data from Gleesons.
+This project had a real impact because it was based on recent sales data from Gleesons.
 
 The dashboard helped show that:
 
 * Beamish was taking sales away from Guinness.
-* Beamish generated around 17% less revenue per pint than Guinness.
+* Beamish generated around 11% less revenue per pint than Guinness.
 * The sales gained from Beamish roughly offset the sales lost from Guinness.
 * Keeping Beamish meant shifting sales away from a stronger-performing product.
 
-This supported the decision to remove Beamish from the product range and refocus on Guinness as the stronger-performing drink.
+This supported the decision to remove Beamish from the pub and focus on Guinness as the stronger performing drink.
 
 ---
 
 ## Recommendation
 
-The main recommendation was to remove Beamish and protect Guinness as one of the pub’s strongest-performing products.
+The main recommendation was to remove Beamish and protect Guinness as one of the pub’s best products.
 
 The reason was simple:
 
-Beamish appeared to replace Guinness sales rather than add meaningful new sales, while also generating less revenue per pint.
+Beamish appeared to replace Guinness sales rather than add meaningful new sales, while generating less revenue per pint.
 
-This made Beamish a weaker product to keep in the range.
+This made Beamish a simply weaker product.
 
 ---
 
 ## Dataset
 
-The dashboard was originally developed using real POS sales data from Gleesons.
+The dashboard was developed using real POS sales data from Gleesons.
 
 The real dataset is not included in this GitHub repository because it contains private business information. Instead, I have included a simulated/anonymised dataset with the same structure.
 
@@ -97,7 +97,7 @@ The original POS data from Gleesons has been excluded from this public version.
 
 No customer data, payment information, private business figures, or original company records are shared.
 
-The public dataset is simulated/anonymised and is included only to demonstrate the dashboard structure and analysis approach.
+The public dataset is simulated and is included only to demonstrate the dashboard structure and analysis approach.
 
 ---
 
@@ -194,27 +194,6 @@ This helps show:
 
 This page summarises the main action from the analysis:
 
-* Remove Beamish from the product range
-* Protect Guinness as a stronger-performing product
-* Use sales data more regularly when reviewing product changes
-
----
-
-## Skills Demonstrated
-
-This project demonstrates:
-
-* Power BI dashboard building
-* Power Query data cleaning
-* DAX measures
-* KPI reporting
-* Data visualisation
-* Basic business analysis
-* Product performance analysis
-* Turning sales data into a recommendation
-* Data privacy awareness
-* GitHub documentation
-
 ---
 
 ## Repository Structure
@@ -291,16 +270,6 @@ Possible future improvements include:
 * Adding stock/inventory data
 * Adding sales targets
 * Reviewing future product launches using the same approach
-* Adding a simple product impact tracker
 
 ---
 
-## Project Summary
-
-This project was built to bring basic analytics into Gleesons, a pub that did not previously have a dashboard.
-
-The key finding was that Beamish appeared to be taking sales away from Guinness after being introduced in December. From January to May, Beamish revenue roughly offset the lost Guinness revenue, but Beamish generated around 17% less revenue per pint.
-
-This supported the decision to remove Beamish from the product range and refocus on Guinness as the stronger-performing drink.
-
-The public version uses simulated/anonymised data so the project can be shared safely.
