@@ -1,4 +1,4 @@
-# Gleesons Pub Sales Dashboard
+# Gleesons Pub Sales Analytics Dashboard
 
 
 ## Project Overview
