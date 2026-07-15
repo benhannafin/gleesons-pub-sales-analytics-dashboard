@@ -198,21 +198,21 @@ This page summarises the main action from the analysis:
 gleesons-pub-sales-dashboard/
 │
 ├── data/
-│   └── pub_sales_data_no_food.csv
+│   └── pub_sales_data.csv
 │
 ├── powerbi/
-│   └── pub_business_dashboard_public.pbix
+│   └── dashboard.pbix
 │
 ├── report/
-│   └── pub_business_insights_report.pdf
+│   └── business_insights_report.pdf
 │
 ├── screenshots/
-│   ├── executive_summary.png
-│   ├── product_performance.png
-│   ├── time_analysis.png
-│   ├── staff_performance.png
-│   ├── profitability_analysis.png
-│   └── management_recommendations.png
+│   ├── ExecutiveSummary.png
+│   ├── ProductPerformance.png
+│   ├── TimeAnalysis.png
+│   ├── StaffPerformance.png
+│   ├── ProfitabilityAnalysis.png
+│   └── ManagementRecommendations.png
 │
 └── README.md
 ```
