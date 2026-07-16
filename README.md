@@ -195,7 +195,7 @@ This page summarises the main action from the analysis:
 ## Repository Structure
 
 ```text
-gleesons-pub-sales-dashboard/
+gleesons_analysis/
 │
 ├── data/
 │   └── pub_sales_data.csv
@@ -207,12 +207,12 @@ gleesons-pub-sales-dashboard/
 │   └── business_insights_report.pdf
 │
 ├── screenshots/
-│   ├── ExecutiveSummary.png
-│   ├── ProductPerformance.png
-│   ├── TimeAnalysis.png
-│   ├── StaffPerformance.png
-│   ├── ProfitabilityAnalysis.png
-│   └── ManagementRecommendations.png
+│   ├── executive_summary.png
+│   ├── product_performance.png
+│   ├── time_analysis.png
+│   ├── staff_performance.png
+│   ├── profitability_analysis.png
+│   └── management_recommendations.png
 │
 └── README.md
 ```
