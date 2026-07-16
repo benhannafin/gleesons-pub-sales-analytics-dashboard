@@ -118,7 +118,7 @@ The dashboard includes six pages:
 
 1. Executive Summary
 2. Product Performance
-3. Time-Based Sales Analysis
+3. Time Analysis
 4. Staff Performance
 5. Profitability Analysis
 6. Management Recommendations
@@ -133,9 +133,8 @@ A quick overview of the main KPIs:
 
 * Total Revenue
 * Total Profit
-* Number of Transactions
 * Average Transaction Value
-* Total Units Sold
+* Number of Transactions
 
 
 ### Product Performance
@@ -150,7 +149,7 @@ This includes:
 * Product category performance
 
 
-### Time-Based Sales Analysis
+### Time Analysis
 
 Shows when the pub is busiest.
 
