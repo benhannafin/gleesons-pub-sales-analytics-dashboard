@@ -264,8 +264,7 @@ Possible future improvements include:
 * Connecting the dashboard to regular POS exports
 * Adding automatic refresh
 * Adding stock/inventory data
-* Adding sales targets
-* Reviewing future product launches using the same approach
+
 
 ---
 
